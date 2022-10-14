@@ -1,0 +1,22 @@
+{
+  "name": "heiters-pagina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/input.css -o ./public/output.css ",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "fullpage.js": "^4.0.11"
+  }
+}
